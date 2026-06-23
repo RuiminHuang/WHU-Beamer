@@ -1,0 +1,25 @@
+# LaTeX build artifacts
+/slide.pdf
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.listing
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+*-blx.bib
+/build-output.txt
+
+# Local/editor and temporary files
+.DS_Store
+tmp/
+/%SystemDrive%/

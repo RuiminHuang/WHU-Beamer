@@ -1,0 +1,35 @@
+\section{一些样式}
+
+
+\subsection{定理块}
+
+\begin{frame}
+    % 定理环境需要两个必须参数 二者可以为空{} 第一个参数是定理块的名称 第二个参数用于引用
+    \begin{defn}{Definition}{}
+    Some definition\supercite{WHU-Beamer}.
+    \end{defn}
+    Here is some description.
+    \begin{theo}{Theorem}{}
+    Some Theorem.
+    \end{theo}
+    \begin{coro}{Corollary}{}
+        Some Corollary.
+    \end{coro}
+    
+\end{frame}
+
+
+\begin{frame}
+    % For multi-column typesetting of listings the listings package provides the multicols=n option, which in fact is a built-in interface to the multicol package.
+    \lstinputlisting[caption=Example,style=customc,multicols=2]{codes/hello.c}
+\end{frame}
+
+
+\begin{frame}[fragile]{tcolorbox 示例}
+    \begin{tcblisting}{colback=red!5!white,colframe=red!75!black}
+        This is a \LaTeX\ example which displays the text as source code
+        and in compiled form.
+    \end{tcblisting}
+\end{frame}
+
+

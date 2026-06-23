@@ -1,0 +1,22 @@
+{
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (project latexmkrc)",
+      "tools": [
+        "latexmk-project"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-project",
+      "command": "latexmk",
+      "args": [
+        "-g",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.intellisense.citation.backend": "biblatex"
+}

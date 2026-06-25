@@ -3,7 +3,10 @@
 \ProvidesPackage{WHU-Beamer}[2022/04/26 Wuhan University Beamer Theme]
 
 %========== 预定义部分 ==========%
-\RequirePackage{ctex} % 中文支持
+\RequirePackage[fontset=none]{ctex} % 中文支持
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
 \RequirePackage{hyperref}
 \RequirePackage[T1]{fontenc}
 \DeclareFontShape{T1}{lmss}{m}{sc}{<->ssub*lmr/m/sc}{}
@@ -25,6 +28,7 @@
 \RequirePackage{listings} % 代码包
 \RequirePackage{stackengine}
 \RequirePackage{tikz} % tikz: 绘制图像.
+\expandafter\def\csname ver@pgf.sty\endcsname{2023/01/15}
 \expandafter\def\csname ver@tikz.sty\endcsname{2023/01/15}
 \RequirePackage{tcolorbox} % tcolorbox: 绘制彩色文本框.
 \RequirePackage{caption} % 图片插入标题

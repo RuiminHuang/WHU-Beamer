@@ -2,6 +2,7 @@
 $pdf_mode = 5;
 $xelatex = 'xelatex -synctex=1 -interaction=nonstopmode -halt-on-error %O %S';
 $xdvipdfmx = 'xdvipdfmx -i dvipdfmx-unsafe.cfg -E -o %D %O %S';
+$biber = 'perl -X /usr/bin/biber %O %S';
 
 # Treat the Biber-generated .bbl file as reproducible, so latexmk -c removes it.
 $bibtex_use = 2;

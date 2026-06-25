@@ -16,6 +16,11 @@ latexmk -c
 
 此改进旨在方便AI Agent接入，实现AI快速制作Slide的目的。
 
+## Contributors
+
+- [Ruimin Huang](https://github.com/RuiminHuang)
+- Codex
+
 
 # WHU-Beamer 武汉大学Beamer模板
 
